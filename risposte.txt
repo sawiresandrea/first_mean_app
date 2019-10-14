@@ -1,0 +1,5 @@
+1) cors serve a richiedere risorse che non si trovato sullo stesso server/macchina/database o che
+    non comunicano con lo stesso protocollo
+2) la richiesta viene fatta al server node,
+    appena arriva la risposta, viene salvata nella variabile this.data
+3)
