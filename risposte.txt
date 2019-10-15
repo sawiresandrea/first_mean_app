@@ -3,3 +3,10 @@
 2) la richiesta viene fatta al server node,
     appena arriva la risposta, viene salvata nella variabile this.data
 3)
+    this.observable = this.http.get('http://GITPOD_SERVER_URL/api')
+    this.observable.subscribe(this.get_data);
+    get_data = data => {this.results = data['results'];}
+
+4) la risposta numero 4 è sotto forma di foto
+
+
